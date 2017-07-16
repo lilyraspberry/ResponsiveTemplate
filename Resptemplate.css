@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca'); 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: 'Fresca', sans-serif;
+}
+
+img {
+  max-width: 100%;  
+}
+
+#myitems {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+#myitems li {
+    width: 100%;
+    margin: 5%;
+}
+
+.Contactpage input[type=text] {
+    width: 100%;
+    border: 1 px solid grey;
+    border-radius:  5px;
+    background-color: darkgray;
+    color: white;
+}
+
+#wrapper {
+    max-width: 1180px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+small {
+    font-size: 1em;
+    margin-left: 155px;
+    font-style: oblique;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 4%;
+    }
+
+footer {
+    background-color: black;
+    color: cornsilk;
+    min-height: 40px;
+    padding: 15px;
+    clear: both;
+}
+
+#header {
+    background-color: teal;
+    border-color: cornsilk;
+    float: left;
+    width: 100%;
+    margin: 0 0 40px 0;
+    padding-top: 10px;
+}
+
+#header div {
+    padding: 10px;
+}
+
+#header h1 {
+    padding: 0;
+    margin: 0;
+    line-height: 45px;
+}
+
+/*.brdone {
+    border: 1px solid black;
+}*/
+
+nav {
+    padding: 10px 0 0;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 5px 10px;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*refers to the class="selected" within <li> for Home, Products and Contact*/
+/*nav a.selected,*/
+nav a:hover {
+    color: black;
+    background-color: cornsilk;
+    border-color: cornsilk;
+}
+
+@media screen and (min-width:480px) {
+    #primary {
+        width: 60%;
+        background-color: beige;
+        float: left;
+    }
+    #secondary {
+    width: 35%;
+    background-color: beige;
+    float: right;
+    padding: 5px;
+    }
+    #header nav {
+        text-align: center;
+        margin-bottom: 15px;
+        background-color: black;
+        line-height: 60px;
+    }
+    nav a {
+        padding: 10px 5px;
+    }
+    #myitems li {
+        float: left;
+        width: 40%;
+        margin: 5%;
+    }
+    #myitems li {
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+
+@media screen and (min-width:720px) {
+    section {
+        background-color: beige;
+    }
+    #header nav {
+        width: 65%;
+        float: right;
+        text-align: right;
+    }
+    #header div {
+        width: 35%;
+        float: left;
+    }
+    #header {
+        margin-bottom: 45px;
+    }
+    #wrapper {
+        margin: 0 auto;
+        padding: 0 4%;
+    }
+    nav a {
+        padding: 15px 10px;
+    }
+}
